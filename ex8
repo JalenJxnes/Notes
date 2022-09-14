@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 8: HTML Tables</title>
+</head>
+
+<body>
+<h1>A fully featured HTML Table.</h1>
+
+<table border="1">
+<caption>Common table types</caption>
+    <tr>
+        <th>Table name</th>
+        <th>Use</th>
+        <th>Location</th>
+        <th>Material</th>
+    </tr>
+    <tr>
+        <td>Coffee Table</td>
+        <td>Placement of personal items</td>
+        <td>Residential</td>
+        <td>Various, commonly wood</td>
+    </tr>
+
+    <tr>
+        <td>Dining table</td>
+        <td>Formal dining</td>
+        <td>Commercial</td>
+        <td>Various, commonly wood</td>
+    </tr>
+
+    <tr>
+        <td>Drafting table</td>
+        <td>Technical drawing</td>
+        <td>Commercial</td>
+        <td>Steel</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document for ex17.html */
+
+ul {
+    list-style-image: url('../images/icon.png') ;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: antiquewhite;
+}
+
+ol {
+    list-style-type: upper-roman;
+    background-color: darkolivegreen;
+    font-family: serif;
+}
+
+ol li {
+    background-color: darkseagreen;
+}

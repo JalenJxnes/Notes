@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 12: HTML Colors</title>
+</head>
+
+<body>
+<h1>HTML Colors</h1>
+
+<h2>Name Colors (DarkSeaGreen Example of 140 colors)</h2>
+<h3 style="background-color:darkseagreen;">H3 darkseagreen background-color</h3>
+<h3 style="color:darkseagreen;">H3 darkseagreen text-color</h3>
+<h3 style="border: 1px solid darkseagreen;">H3 darkseagreen border-color</h3>
+
+<h2>RGB Colors rgb(143,188,143)</h2>
+<h3 style="background-color:rgb(143,188,143);">H3 rgb(143,188,143) background-color</h3>
+<h3 style="color:rgb(143,188,143);">H3 rgb(143,188,143) text-color</h3>
+<h3 style="border: 1px solid rgb(143,188,143);">H3 rgb(143,188,143) border-color</h3>
+
+<h2>Hexadecimal Colors #8fbc8f</h2>
+<h3 style="background-color:#8fbc8f;">H3 #8fbc8f background-color</h3>
+<h3 style="color:#8fbc8f;">H3 #8fbc8f text-color</h3>
+<h3 style="border: 1px solid #8fbc8f;">H3 #8fbc8f border-color</h3>
+
+<h2>Hue Saturation and Lightness (HSL) Colors hsl(120,25%,65%)</h2>
+<h3 style="background-color:hsl(120,25%,65%);">H3 hsl(120,25%,65%) background-color</h3>
+<h3 style="color:hsl(120,25%,65%);">H3 hsl(120,25%,65%) text-color</h3>
+<h3 style="border: 1px solid hsl(120,25%,65%);">H3 hsl(120,25%,65%) border-color</h3>
+
+<h2>RGBA Colors rgba(143,188,143,.5)</h2>
+<h3 style="background-color:rgba(143,188,143,.5);">H3 rgb(143,188,143) background-color</h3>
+<h3 style="color:rgba(143,188,143,.5);">H3 rgb(143,188,143) text-color</h3>
+<h3 style="border: 1px solid rgba(143,188,143,.5);">H3 rgb(143,188,143) border-color</h3>
+
+<h2>Hue Saturation and Lightness (HSLA) Colors hsla(120,25%,65%,.5)</h2>
+<h3 style="background-color:hsla(120,25%,65%,.5);">H3 hsl(120,25%,65%,.5) background-color</h3>
+<h3 style="color:hsla(120,25%,65%,.5);">H3 hsl(120,25%,65%,.5) text-color</h3>
+<h3 style="border: 1px solid hsla(120,25%,65%,.5);">H3 hsl(120,25%,65%,.5) border-color</h3>
+
+<p>Version 1</p>
+<p>Difficulty: Easy</p>
+</body>
+</html>

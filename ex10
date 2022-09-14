@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 10</title>
+</head>
+
+<body>
+<h1>Pure HTML does not provide a lot of layout options.</h1>
+
+<h2>Option 1: Semantic layout</h2>
+<header align="center">Header content</header>
+<nav>Navigation content</nav>
+<article align="center">Article Content</article>
+<footer align="center">Footer content</footer>
+
+<h2>Option 2: Terrbile Table Layout</h2>
+<table align="center">
+    <tr>
+        <td colspan="2" align="center">Header content</td>
+    </tr>
+
+    <tr>
+        <td>Left side Navigation</td>
+        <td>Right side Article content</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">Footer content</td>
+    </tr>
+
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 7: Anchors Aweigh</title>
+</head>
+
+<body>
+<h1>Anchors Aweigh</h1>
+<h2>Practice using the Anchor element</h2>
+
+<h3>Navigation</h3>
+<ul>
+    <li><a href="#admirality"> Admirality Anchor</a></li>
+    <li><a href="#byers">Byer's Stockless Anchor</a></li>
+    <li><a href="#claw">Claw Anchor</a></li>
+    <li><a href="#fluke">Fluke Anchor</a></li>
+    <li><a href="dinghy">Dinghy Anchor</a></li>
+</ul>
+<h3 id="admirality">Admirality Anchor</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.</p>
+<p>Learn More about <a href="ex7_starter/ex7_admirality.html" target="_blank">Admirality Anchors.</a></p>
+
+<h3 id="byers">Byer's Stockless Anchor</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.</p>
+<p>Learn More about <a href="ex7_starter/ex7_byer.html" target="_self">Byer's Stockless Anchors.</a></p>
+
+<h3 id="claw">Claw Anchor</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.</p>
+<p>Learn More about <a href="ex7_starter/ex7_claw.html">Claw Anchors.</a></p>
+
+<h3 id="fluke">Fluke Anchor</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.</p>
+<p>Learn More about <a href="ex7_starter/ex7_fluke.html">Admirality Anchors.</a></p>
+
+<h3 id="dinghy">Dinghy Anchor</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.</p>
+<p>Purchase an anchor for your dinghy at <a href="http://www.westmarine.com" target="_blank">West Marine</a></p>
+
+</body>
+</html>

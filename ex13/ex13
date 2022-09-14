@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>INFS2400 CSS Toolkit</title>
+<link href="ex13.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Jalen Jones</h1>
+    <p>Preferred name: Jalen or Jay</p>
+    <h2>Academic Information</h2>
+    <p>Major: Information Systems</p>
+    <P>Minor: Business Administration</P>
+    
+    <h3>CSS Toolkit</h3>
+    <p><a>CSS Text Formatting</a></p>
+    <p><a>CSS Presenting Images</a></p>
+    <p><a>CSS List Formatting</a></p>
+    <p><a>CSS Borders</a></p>
+    <p><a>CSS Transitions</a></p>
+    <p><a>CSS Overlays</a></p>
+    <p><a>CSS Layout</a></p>
+    <p><a>CSS Animations</a></p>
+    <p><a>CSS Media Queries</a></p>
+
+    <p>Version 1</p>
+    <p>Difficulty: 1/10</p>
+</body>
+</html>

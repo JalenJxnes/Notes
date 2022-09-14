@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 4</title>
+</head>
+
+<body>
+ <h1>HTML Images</h1>
+
+ <h3>Unformatted Image (w=600px h=400px):</h3>
+ <img src="images/small.jpg" alt="Cow">
+
+ <h3>Formatted Image (w=300px h=200px):</h3>
+ <img height="200px" width="300px" src="images/small.jpg" alt="Cow">
+
+ <h3>Formatted Image (right align*):</h3>
+    <p><img align="right" height="200px" width="300px" src="images/small.jpg" alt="Cow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.
+    </p>
+
+    <h3>Formatted Image (left align*):</h3>
+    <p><img align="left" height="200px" width="300px" src="images/small.jpg" alt="Cow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis faucibus urna, in volutpat dolor fringilla quis. Sed eleifend, erat quis mattis tincidunt, mauris arcu maximus orci, eu faucibus sapien justo nec elit. Ut quis justo sit amet libero vestibulum suscipit. Quisque bibendum, odio vitae mollis tristique, nunc eros aliquam ligula, vel eleifend nisi velit non lectus. Aliquam nec ante ante. Proin iaculis faucibus nisi, vel dapibus lorem feugiat in. Mauris vulputate convallis sollicitudin.
+    </p>
+
+    <p>Note: *align attribute not supported by HTML5</p>
+    <p>Version 1</p>
+    <p>Difficulty: 1.5/10</p>
+</body>
+</html>

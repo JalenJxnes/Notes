@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>INFS2400 Toolkit</title>
+</head>
+
+<body>
+    <h1>Jalen Jones</h1>
+    <p>Preferred name: Jalen or Jay</p>
+    <h2>Academic Information</h2>
+    <p>Major: Information Systems</p>
+    <P>Minor: Business Administration</P>
+    <h3>Toolkit</h3>
+    <p><a>HTML Text Formatting</a></p>
+    <p><a>HTML Presenting Images</a></p>
+    <p><a>HTML List Formatting</a></p>
+    <p><a>HTML Elements, Attributes, Values, And Entities</a></p>
+    <p><a>HTML Links</a></p>
+    <p><a>HTML Tables</a></p>
+    <p><a>HTML Forms</a></p>
+    <p><a>HTML Layout</a></p>
+    <p><a>HTML Image Maps</a></p>
+    <p><a>HTML Colors</a></p>
+    <p><a>HTML Scalable Vector Graphics</a></p>
+    <p><a>HTML Embeds</a></p>
+</body>
+</html>
