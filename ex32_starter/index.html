@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 33: Bootstrap Modals</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	
+  	
+</head>
+
+<body class="bg-dark">
+<div class="modal fade" id="mainModal" tabindex="1" role="dialog" aria-labelledby="mainModal" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Hello</h3>
+			<button type="button" class="close" DATA-dismiss="modal" aria-label="close.">
+				<span aria-hidden="true">Back to the Engine</span>
+			</button>
+			</div><!--end of modal header-->
+			<div class="modal-body">
+				Jet Engines are dangerous.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+					Close
+				</button>
+			</div>
+		</div><!--end of modal content-->
+	</div>
+</div>
+
+<div class="jumbotron m-2">
+	<h1 class="display-1 text-dark">Jet Engines.</h1>
+	<button type="button" class="btn btn-dark btn-md" id="launchModal" data-toggle="modal" data-target="#mainModal" data-show="true">
+		Why this photo?
+	</button>
+	<img class="img-fluid" src="images/jet_engine.jpg" alt="Jet Engine">
+</div> <!-- end of jumbotron -->
+
+</body>
+</html>

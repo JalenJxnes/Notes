@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Carousels</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	
+  	
+</head>
+
+<body>
+<h1>Note: Text Carousel Examples</h1>
+<div id="carouselText1" class="carousel slide" data-ride="carousel" data-interval="2000">
+	Carousel 1(text only, 2000 ms, autostart, no controls)
+	<div class="carousel-inner bg-info">
+
+		<div class="carousel-item active mt-4 mb-3">
+			<h3 align="center">"The first quote."</h3>
+			<h5 align="center"><em>- Customer 1</em></h5>
+		</div>
+		
+		<div class="carousel-item mt-4 mb-3">
+			<h3 align="center">"The second quote."</h3>
+			<h5 align="center"><em>- Customer 2</em></h5>
+		</div>
+
+		<div class="carousel-item mt-4 mb-3">
+			<h3 align="center">"The third quote."</h3>
+			<h5 align="center"><em>- Customer 3</em></h5>
+		</div>
+	</div>
+</div><!--end of carousel-->
+
+
+<div id="carouselText2" class="carousel slide" data-ride="false" data-interval="5000">
+	Carousel 2(text only, 5000 ms, manual start, with controls)
+	<div class="carousel-inner bg-warning">
+
+		<div class="carousel-item active mt-4 mb-3">
+			<h3 align="center">"The first quote."</h3>
+			<h5 align="center"><em>- Customer 1</em></h5>
+		</div>
+		
+		<div class="carousel-item mt-4 mb-3">
+			<h3 align="center">"The second quote."</h3>
+			<h5 align="center"><em>- Customer 2</em></h5>
+		</div>
+
+		<div class="carousel-item mt-4 mb-3">
+			<h3 align="center">"The third quote."</h3>
+			<h5 align="center"><em>- Customer 3</em></h5>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#carouselText2" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+
+	<a class="carousel-control-next" href="#carouselText2" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+
+	<div id="carouselText3" class="carousel slide" data-ride="carousel" data-interval="1000">
+		Carousel 3(text only, 10000 ms, autostart, indicator controls)
+		<ol class="carousel-indicators">
+			<li data-target="#carouselText3" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselText3" data-slide-to="1"></li>
+			<li data-target="#carouselText3" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner bg-danger">
+	
+			<div class="carousel-item active mt-4 mb-5">
+				<h3 align="center">"The first quote."</h3>
+				<h5 align="center"><em>- Customer 1</em></h5>
+			</div>
+			
+			<div class="carousel-item mt-4 mb-5">
+				<h3 align="center">"The second quote."</h3>
+				<h5 align="center"><em>- Customer 2</em></h5>
+			</div>
+	
+			<div class="carousel-item mt-4 mb-5">
+				<h3 align="center">"The third quote."</h3>
+				<h5 align="center"><em>- Customer 3</em></h5>
+			</div>
+		</div>
+	</div><!--end of carousel-->
+
+</div><!--end of carousel-->
+</body>
+</html>
