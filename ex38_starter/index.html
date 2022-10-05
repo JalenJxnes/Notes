@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 38: MDB Overlays</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+
+</head>
+
+<body>
+<h1>Presenting Images using MDB</h1>
+
+<h3 class="mt-5">Unformatted Image</h3>
+<img src="images/small.jpg" alt="cow">
+
+<h3 class="mt-5">Rounded Corners</h3>
+<img class="rounded" src="images/small.jpg" alt="cow">
+
+<h3 class="mt-5">Circular (technically ellipse) Image</h3>
+<img class="rounded-circle" src="images/small.jpg" alt="cow">
+
+<h3 class="mt-5">Filtered Image</h3>
+<div class="row">
+	<div class="view">
+		<img src="images/small.jpg" alt="cow">
+		<div class="mask pattern-2"></div>
+	</div>
+</div>
+
+<h3 class="mt-5">Shadowed Image</h3>
+<img class="z-depth-3" src="images/small.jpg" alt="cow">
+
+<h3 class="mt-5">Responsive Image</h3>
+<img class="img-fluid" src="images/small.jpg" alt="cow">
+
+<h3 class="mt-5">Image Alignment</h3>
+<img class="mx-auto d-block" src="images/small.jpg" alt="cow">
+
+<h3 class="mt-5">Image Text Overlay</h3>
+<div class="row">
+	<div class="view overlay hoverable">
+		<img class="img-fluid" src="images/small.jpg" alt="cow">
+		
+		<div class="mask flex-center rgba-black-strong">
+			<p class="white-text">Moo.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
